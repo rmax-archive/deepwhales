@@ -1,0 +1,10 @@
+#!/m/home/home2/20/vranoug1/unix/workspace/whales/neon/.venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'coverage==4.1','console_scripts','coverage2'
+__requires__ = 'coverage==4.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('coverage==4.1', 'console_scripts', 'coverage2')()
+    )
